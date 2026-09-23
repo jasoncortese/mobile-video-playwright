@@ -1,5 +1,7 @@
 # Mobile video · Playwright sample
 
+[![Mobile video checks](https://github.com/jasoncortese/mobile-video-playwright/actions/workflows/playwright.yml/badge.svg)](https://github.com/jasoncortese/mobile-video-playwright/actions/workflows/playwright.yml)
+
 A compact TypeScript suite for a mobile web video player. Seven behavior-focused scenarios run on Chromium with a Pixel 7 profile and WebKit with an iPhone 13 profile.
 
 **Independent demonstration project.** Built as a portfolio sample, not a claim of client work or production testing. The accompanying player is a test target, not a production streaming platform.

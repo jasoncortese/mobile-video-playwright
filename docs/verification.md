@@ -12,7 +12,9 @@ Verified locally on September 23, 2026, on macOS arm64.
 
 Environment: Node.js 25.8.0, npm 11.11.0, Playwright 1.63.0, TypeScript 7.0.2 and Vite 8.3.0. Test browsers: Chromium 153.0.8010.12 and WebKit 26.6. Exact dependency versions are in `package-lock.json`.
 
-The GitHub Actions workflow is provided but has not been run on GitHub. Linux and physical iOS/Android devices were not tested. A single successful local run is not a long-term flakiness assessment.
+The first [GitHub Actions run](https://github.com/jasoncortese/mobile-video-playwright/actions/runs/35907009807) also passed on September 23, 2026: typecheck, production build and all **14 tests in 20.1 seconds** on Linux with Node.js 22.23.2. The HTML report is available as a workflow artifact for seven days.
+
+Physical iOS/Android devices were not tested. These successful runs are not a long-term flakiness assessment.
 
 ## A defect the suite caught
 
